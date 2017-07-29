@@ -1,0 +1,190 @@
+
+
+*{
+padding: 0;margin: 0;
+}
+#panelGuest{
+    width: 100%;
+    float:left;
+    overflow-x: auto;
+    border:solid #ff920a 2px;
+}
+
+#modalShareBody {
+    overflow:hidden;
+}
+
+#loading {
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+z-index: 9999;
+background: url(assets/img/loading.gif) 50% 50% no-repeat #fff;
+}
+
+.header{
+	background:#313232;
+	border-bottom: 5px solid #D63B37;
+}
+
+.wrap{
+	width:100%;
+	margin:0 auto;
+}
+.top-nav{
+	float:right;
+}
+.top-nav ul li{
+	display:inline-block;
+	float:left;
+}
+.top-nav li.active> a, .top-nav li> a:hover {
+	background: #D63B37;
+	color:#FFF;
+}
+.top-nav ul li a{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 0.875em;
+	color: #FFF;
+	padding: 30px;
+	display: block;
+	text-transform: uppercase;
+}
+/*----start-footer-----*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/*---start-copy-right-----*/
+.copy-right{
+	padding: 1em 0;
+	width:100%;
+	height:60px;  
+	background:#313232;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align:center;
+	position:relative;
+}
+.copy-right p{
+	color:#FFF;
+}
+.copy-right p a{
+	color:#D63B37;
+}
+.copy-right p a:hover{
+	color:#FFF;
+}
+/*** move top **/
+.scroll {
+	width: 48px;
+	height: 48px;
+	border: none;
+	display: block;
+	text-indent: 100%;
+	background: url(../img/top-icon.png) no-repeat right top;
+	position: absolute;
+	right: 14px;
+	bottom: 20px;
+}
+.scroll:hover{
+	opacity:0.8;
+}
+/* Body and structure
+-------------------------------------------------- */
+
+body {
+  position: relative;
+  padding-top: 40px;
+  	background:url('../img/login_bg.jpg');
+	background-size:100% 100%;
+	height:100%;
+
+
+}
+
+h1{
+	text-align: center;
+	font-family: "aubrey", Times, serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+/* Tweak navbar brand link to be super sleek
+-------------------------------------------------- */
+
+body > .navbar {
+  font-size: 13px;
+}
+
+/* Change the docs' brand */
+body > .navbar .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+body > .navbar .brand:hover {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+}
+
+h1{
+text-align: center;
+
+
+
+}
+
+
+/* Sections
+-------------------------------------------------- */
+
+/* padding for in-page bookmarks and fixed navbar */
+section {
+  padding-top: 30px;
+}
+section > .page-header,
+section > .lead {
+  color: #5a5a5a;
+}
+section > ul li {
+  margin-bottom: 5px;
+}
+
+/* Separators (hr) */
+.bs-docs-separator {
+  margin: 40px 0 39px;
+}
+
+/* Faded out hr */
+hr.soften {
+  height: 1px;
+  margin: 70px 0;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  border: 0;
+}
+
+
+
+
+

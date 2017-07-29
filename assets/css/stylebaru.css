@@ -1,0 +1,25 @@
+body {
+    background-color: #fcf2d6;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    color: black;
+    margin-left: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 40;
+}
+
+#content{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#message{
+	text-align: center;
+	color: red;
+	
+}

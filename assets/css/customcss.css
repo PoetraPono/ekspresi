@@ -1,0 +1,10 @@
+#panelGuest{
+    width: 100%;
+    float:left;
+    overflow-x: auto;
+    border:solid grey 2px;
+}
+
+#modalShareBody {
+    overflow:hidden;
+}
